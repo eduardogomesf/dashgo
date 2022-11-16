@@ -54,7 +54,7 @@ export default function Users () {
                 <Td>
                   <Box>
                     <Text fontWeight='bold'>Eduardo Gomes</Text>
-                    <Text fontSize='small' color='gray.300'>eduardogoomesf@gmail.com</Text>
+                    <Text fontSize='small' color='gray.300'>eduardogomesf.dev@gmail.com</Text>
                   </Box>
                 </Td>
                 {isWideVersion && <Td>15 de Novembro, 2022</Td>}
