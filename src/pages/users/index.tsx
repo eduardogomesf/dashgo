@@ -13,7 +13,7 @@ export default function Users () {
     lg: true
   })
 
-  const { data, isLoading, isFetching, error } = useUsers()
+  const { data = [], isLoading, isFetching, error } = useUsers()
 
   return (
     <Box>
@@ -30,9 +30,8 @@ export default function Users () {
               {!isLoading && isFetching && <Spinner size="sm" color='gray.500' ml='4' />}
             </Heading>
 
-            <Link href='/users/create' passHref>
+            <Link href='/users/create'>
               <Button
-                as='a'
                 size='sm'
                 fontSize='sm'
                 colorScheme='pink'
